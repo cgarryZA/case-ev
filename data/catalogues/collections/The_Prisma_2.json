@@ -1,0 +1,22 @@
+{
+  "Collection": "The Prisma 2 Collection",
+  "Skins": [
+    { "Name": "Bullet Queen",        "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Player Two",          "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Justice",             "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Disco Tech",          "Rarity": "Classified", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Phantom Disruptor",   "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Fever Dream",         "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Darkwing",            "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Enforcer",            "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Apocalypto",          "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Acid Etched",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Bone Forged",         "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Prototype",           "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Desert Strike",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Blue Ply",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Distressed",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Capillary",           "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Tom Cat",             "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" }
+  ]
+}

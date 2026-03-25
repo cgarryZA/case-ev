@@ -1,0 +1,22 @@
+{
+  "Collection": "The Clutch Collection",
+  "Skins": [
+    { "Name": "Neo-Noir",       "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Bloodsport",     "Rarity": "Covert",     "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Mortis",         "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Stymphalian",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Cortex",         "Rarity": "Classified", "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Moonrise",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "SWAG-7",         "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Lionfish",       "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Wild Six",       "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Arctic Wolf",    "Rarity": "Restricted", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Flame Test",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Black Sand",     "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Urban Hazard",   "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Night Riot",     "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Grip",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Aloha",          "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Oxide Blaze",    "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" }
+  ]
+}

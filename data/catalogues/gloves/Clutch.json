@@ -1,0 +1,23 @@
+{
+  "Collection": "Clutch Collection",
+  "Cases": [
+    "Clutch Case",
+    "Revolution Case"
+  ],
+  "GloveTypes": [
+    "Driver Gloves",
+    "Hand Wraps",
+    "Hydra Gloves",
+    "Moto Gloves",
+    "Specialist Gloves",
+    "Sport Gloves"
+  ],
+  "Finishes": {
+    "Driver Gloves": ["Imperial Plaid", "King Snake", "Overtake", "Racing Green"],
+    "Hand Wraps": ["Arboreal", "Cobalt Skulls", "Duct Tape", "Overprint"],
+    "Hydra Gloves": ["Case Hardened", "Emerald", "Mangrove", "Rattler"],
+    "Moto Gloves": ["Polygon", "POW!", "Transport", "Turtle"],
+    "Specialist Gloves": ["Buckshot", "Crimson Web", "Fade", "Mogul"],
+    "Sport Gloves": ["Amphibious", "Bronze Morph", "Omega", "Vice"]
+  }
+}

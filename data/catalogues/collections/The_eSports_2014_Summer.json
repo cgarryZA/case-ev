@@ -1,0 +1,22 @@
+{
+  "Collection": "The eSports 2014 Summer Collection",
+  "Skins": [
+    { "Name": "Jaguar",          "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Bullet Rain",     "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Corticera",       "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Bloomstick",      "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Bengal Tiger",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Corticera",       "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Steel Disruption","Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Crimson Web",     "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Ocean Foam",      "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Blue Streak",     "Rarity": "Restricted", "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Virus",           "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Blood Tiger",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Bratatat",        "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Red Python",      "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Hexane",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Dark Water",      "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Ultraviolet",     "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" }
+  ]
+}

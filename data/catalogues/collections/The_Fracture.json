@@ -1,0 +1,22 @@
+{
+  "Collection": "The Fracture Collection",
+  "Skins": [
+    { "Name": "Legion of Anubis", "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Printstream",       "Rarity": "Covert",     "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Entombed",          "Rarity": "Classified", "Type": "Shotgun",      "Weapon": "XM1014" },
+    { "Name": "Vogue",             "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Glock-18" },
+    { "Name": "Tooth Fairy",       "Rarity": "Classified", "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "Kitbash",           "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MP5-SD" },
+    { "Name": "Connexion",         "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "Galil AR" },
+    { "Name": "Allure",            "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MAC-10" },
+    { "Name": "Brother",           "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Tec-9" },
+    { "Name": "Monster Call",      "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "MAG-7" },
+    { "Name": "Runic",             "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "PP-Bizon" },
+    { "Name": "Freight",           "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Cassette",          "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Mainframe 001",     "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "SSG 08" },
+    { "Name": "Ol' Rusty",         "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "SG 553" },
+    { "Name": "Gnarled",           "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P2000" },
+    { "Name": "Ultralight",        "Rarity": "Mil-spec",   "Type": "Machine Gun",  "Weapon": "Negev" }
+  ]
+}

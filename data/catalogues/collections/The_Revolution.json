@@ -1,0 +1,22 @@
+{
+  "Collection": "The Revolution Collection",
+  "Skins": [
+    { "Name": "Head Shot",       "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Temukau",         "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Wicked Sick",     "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Wild Child",      "Rarity": "Classified", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Duality",         "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Emphorosaur-S",   "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Umbral Rabbit",   "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Neoqueen",        "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Banana Cannon",   "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Sakkaku",         "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Insomnia",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Featherweight",   "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Fragments",       "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Re.built",        "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Liquidation",     "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Cyberforce",      "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Rebel",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" }
+  ]
+}

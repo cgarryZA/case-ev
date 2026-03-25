@@ -1,0 +1,21 @@
+{
+  "Collection": "The Falchion Collection",
+  "Skins": [
+    { "Name": "Hyper Beast",           "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Aquamarine Revenge",    "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Yellow Jacket",         "Rarity": "Classified", "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Cyrex",                 "Rarity": "Classified", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Nemesis",               "Rarity": "Classified", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Loudmouth",             "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Handgun",               "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Neural Net",            "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Evil Daimyo",           "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Ruby Poison Dart",      "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Torque",                "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Ranger",                "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Riot",                  "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Bunsen Burner",         "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Rocket Pop",            "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Elite Build",           "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "P90" }
+  ]
+}

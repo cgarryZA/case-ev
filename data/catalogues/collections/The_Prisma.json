@@ -1,0 +1,22 @@
+{
+  "Collection": "The Prisma Collection",
+  "Skins": [
+    { "Name": "The Emperor",     "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Angry Mob",       "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Incinegator",     "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Momentum",        "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Skull Crusher",   "Rarity": "Classified", "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Moonrise",        "Rarity": "Restricted", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Gauss",           "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Light Rail",      "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Bamboozle",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Atheris",         "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Off World",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Verdigris",       "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Mischief",        "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Akoben",          "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Whitefish",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Uncharted",       "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Crypsis",         "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "FAMAS" }
+  ]
+}

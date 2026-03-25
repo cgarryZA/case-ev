@@ -1,0 +1,19 @@
+{
+  "Collection": "The Chroma Collection",
+  "Skins": [
+    { "Name": "Man-o'-war",         "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Chatterbox",         "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Muertos",            "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Cartel",             "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "龍王 (Dragon King)",  "Rarity": "Classified", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Serenity",           "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Naga",               "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Urban Shock",        "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Malachite",          "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Grotto",             "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "System Lock",        "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Quicksilver",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Catacombs",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Deadly Poison",      "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" }
+  ]
+}

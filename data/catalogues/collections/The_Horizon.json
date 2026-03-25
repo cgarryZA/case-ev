@@ -1,0 +1,22 @@
+{
+  "Collection": "The Horizon Collection",
+  "Skins": [
+    { "Name": "Code Red",        "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Neon Rider",      "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Nightmare",       "Rarity": "Classified", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Eye of Athena",   "Rarity": "Classified", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Devourer",        "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Eco",             "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "High Seas",       "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Toy Soldier",     "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "PAW",             "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Powercore",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Amber Slipstream","Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Shred",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Warhawk",         "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Capillary",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Traction",        "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Survivalist",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Snek-9",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" }
+  ]
+}

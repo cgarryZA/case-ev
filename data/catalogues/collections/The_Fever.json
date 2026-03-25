@@ -1,0 +1,22 @@
+{
+  "Collection": "The Fever Collection",
+  "Skins": [
+    { "Name": "Printstream",     "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Bad Trip",        "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "K.O. Factory",    "Rarity": "Classified", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Shinobu",         "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Searing Rage",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Tosai",           "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Zeus x27" },
+    { "Name": "Wave Breaker",    "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Rising Sun",      "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Control",         "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Serpent Strike",  "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Mockingbird",     "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "PC-GRN",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Memorial",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Sure Grip",       "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Nexus",           "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Resupply",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Choppa",          "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "M4A4" }
+  ]
+}

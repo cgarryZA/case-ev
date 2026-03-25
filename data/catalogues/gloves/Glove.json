@@ -1,0 +1,23 @@
+{
+  "Collection": "Glove Collection",
+  "Cases": [
+    "Glove Case",
+    "Operation Hydra Case"
+  ],
+  "GloveTypes": [
+    "Bloodhound Gloves",
+    "Driver Gloves",
+    "Hand Wraps",
+    "Moto Gloves",
+    "Specialist Gloves",
+    "Sport Gloves"
+  ],
+  "Finishes": {
+    "Bloodhound Gloves": ["Bronzed", "Charred", "Guerrilla", "Snakebite"],
+    "Driver Gloves": ["Convoy", "Crimson Weave", "Diamondback", "Lunar Weave"],
+    "Hand Wraps": ["Badlands", "Leather", "Slaughter", "Spruce DDPAT"],
+    "Moto Gloves": ["Boom!", "Cool Mint", "Eclipse", "Spearmint"],
+    "Specialist Gloves": ["Crimson Kimono", "Emerald Web", "Forest DDPAT", "Foundation"],
+    "Sport Gloves": ["Arid", "Hedge Maze", "Pandora's Box", "Superconductor"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Collection": "The Breakout Collection",
+  "Skins": [
+    { "Name": "Cyrex",          "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Asiimov",        "Rarity": "Covert",     "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Fowl Play",      "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Water Elemental","Rarity": "Classified", "Type": "Pistol",       "Weapon": "Glock-18" },
+    { "Name": "Conspiracy",     "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Supernova",      "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Koi",            "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Tigris",         "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "CZ75-Auto" },
+    { "Name": "Osiris",         "Rarity": "Restricted", "Type": "SMG",          "Weapon": "PP-Bizon" },
+    { "Name": "Desert-Strike",  "Rarity": "Mil-spec",   "Type": "Machine Gun",  "Weapon": "Negev" },
+    { "Name": "Labyrinth",      "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "UMP-45" },
+    { "Name": "Ivory",          "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P2000" },
+    { "Name": "Abyss",          "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "SSG 08" },
+    { "Name": "Urban Hazard",   "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "MP7" }
+  ]
+}

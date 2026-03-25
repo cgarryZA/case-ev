@@ -1,0 +1,17 @@
+{
+  "Collection": "The eSports 2013 Winter Collection",
+  "Skins": [
+    { "Name": "X-Ray",              "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "Cobalt Disruption",  "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Electric Hive",      "Rarity": "Classified", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Afterimage",         "Rarity": "Classified", "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Blind Spot",         "Rarity": "Restricted", "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Blue Laminate",      "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Steel Disruption",   "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Azure Zebra",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "G3SG1" },
+    { "Name": "Ghost Camo",         "Rarity": "Mil-spec",   "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Water Sigil",        "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "PP-Bizon" },
+    { "Name": "Nightshade",         "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Blue Titanium",      "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "Galil AR" }
+  ]
+}

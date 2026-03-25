@@ -1,0 +1,22 @@
+{
+  "Collection": "The Dreams & Nightmares Collection",
+  "Skins": [
+    { "Name": "Nightwish",           "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Starlight Protector", "Rarity": "Covert",     "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Melondrama",          "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Rapid Eye Movement",  "Rarity": "Classified", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Abyssal Apparition",  "Rarity": "Classified", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Space Cat",           "Rarity": "Restricted", "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Dream Glade",         "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Night Terror",        "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Zombie Offensive",    "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Ticket to Hell",      "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Scrawl",              "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Ensnared",            "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Foresight",           "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Necro Jr.",           "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Lifted Spirits",      "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Poultrygeist",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Spirit Board",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" }
+  ]
+}

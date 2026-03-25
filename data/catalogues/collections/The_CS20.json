@@ -1,0 +1,22 @@
+{
+  "Collection": "The CS20 Collection",
+  "Skins": [
+    { "Name": "Wildfire",        "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Commemoration",   "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Death by Puppy",  "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Nostalgia",       "Rarity": "Classified", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Hydra",           "Rarity": "Classified", "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Plastique",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Inferno",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Buddy",           "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Agent",           "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Aztec",           "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Sacrifice",       "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Decommissioned",  "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Assault",         "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Popdog",          "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Classic Crate",   "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Flash Out",       "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Elite 1.6",       "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" }
+  ]
+}

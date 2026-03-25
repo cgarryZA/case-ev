@@ -1,0 +1,14 @@
+{
+  "Collection": "The eSports 2013 Collection",
+  "Skins": [
+    { "Name": "Death by Kitty", "Rarity": "Covert",     "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "BOOM",           "Rarity": "Classified", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Red Laminate",   "Rarity": "Classified", "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Splash",         "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Orange DDPAT",   "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "Sawed-Off" },
+    { "Name": "Orange DDPAT",   "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "Galil AR" },
+    { "Name": "Doomkitty",      "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Memento",        "Rarity": "Mil-spec",   "Type": "Shotgun",      "Weapon": "MAG-7" },
+    { "Name": "Faded Zebra",    "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "M4A4" }
+  ]
+}

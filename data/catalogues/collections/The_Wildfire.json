@@ -1,0 +1,21 @@
+{
+  "Collection": "The Wildfire Collection",
+  "Skins": [
+    { "Name": "Fuel Injector",     "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "The Battlestar",    "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "Elite Build",       "Rarity": "Classified", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Hyper Beast",       "Rarity": "Classified", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Kumicho Dragon",    "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Praetorian",        "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "MAG-7" },
+    { "Name": "Triumvirate",       "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Royal Legion",      "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Glock-18" },
+    { "Name": "Valence",           "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Impire",            "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MP7" },
+    { "Name": "Lead Conduit",      "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Jambiya",           "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Tec-9" },
+    { "Name": "Cartel",            "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Dual Berettas" },
+    { "Name": "Necropos",          "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "SSG 08" },
+    { "Name": "Lapis Gator",       "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "MAC-10" },
+    { "Name": "Photic Zone",       "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "PP-Bizon" }
+  ]
+}

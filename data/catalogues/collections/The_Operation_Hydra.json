@@ -1,0 +1,22 @@
+{
+  "Collection": "The Operation Hydra Collection",
+  "Skins": [
+    { "Name": "Hyper Beast",      "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Oni Taiji",        "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Hellfire",         "Rarity": "Classified", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Sugar Rush",       "Rarity": "Classified", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Cobra Strike",     "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Orbit Mk01",       "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Death's Head",     "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Death Grip",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Red Rock",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Woodsman",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Blueprint",        "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Macabre",          "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Briefing",         "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Aloha",            "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Hard Water",       "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Cut Out",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Metal Flowers",    "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" }
+  ]
+}

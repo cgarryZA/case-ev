@@ -1,0 +1,22 @@
+{
+  "Collection": "The Revolver Case Collection",
+  "Skins": [
+    { "Name": "Royal Paladin",   "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Fade",            "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Point Disarray",  "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "The Executioner", "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Shapewood",       "Rarity": "Classified", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Power Loader",    "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Teclu Burner",    "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Retrobution",     "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Avalanche",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Tiger Moth",      "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Fuel Rod",        "Rarity": "Restricted", "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Crimson Web",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Outbreak",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Yorick",          "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Ricochet",        "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Corinthian",      "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Imperial",        "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" }
+  ]
+}

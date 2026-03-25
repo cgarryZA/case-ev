@@ -1,0 +1,19 @@
+{
+  "Collection": "The Vanguard Collection",
+  "Skins": [
+    { "Name": "Fire Elemental",  "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Wasteland Rebel", "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Cartel",          "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Cardiac",         "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Tranquility",     "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Basilisk",        "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Highwayman",      "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Grinder",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Griffin",         "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Firestarter",     "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Delusion",        "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Urban Hazard",    "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Murky",           "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Dart",            "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Collection": "The Arms Deal 2 Collection",
+  "Skins": [
+    { "Name": "Blood in the Water", "Rarity": "Covert",     "Type": "Sniper Rifle", "Weapon": "SSG 08" },
+    { "Name": "Serum",              "Rarity": "Classified", "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Cold Blooded",       "Rarity": "Classified", "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Hemoglobin",         "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Dual Berettas" },
+    { "Name": "Graphite",           "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Hypnotic",           "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MP9" },
+    { "Name": "Case Hardened",      "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Crimson Web",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "SCAR-20" },
+    { "Name": "Hive",               "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Hexane",             "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Blood Tiger",        "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Blue Titanium",      "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Tec-9" }
+  ]
+}

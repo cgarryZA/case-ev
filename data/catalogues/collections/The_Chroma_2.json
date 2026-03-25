@@ -1,0 +1,20 @@
+{
+  "Collection": "The Chroma 2 Collection",
+  "Skins": [
+    { "Name": "Hyper Beast",      "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Neon Rider",       "Rarity": "Covert",     "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Monkey Business",  "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Djinn",            "Rarity": "Classified", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Eco",              "Rarity": "Classified", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Worm God",         "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Heat",             "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Grand Prix",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Pole Position",    "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Valence",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Origami",          "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Man-o'-war",       "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Bronze Deco",      "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Elite Build",      "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Armor Core",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP7" }
+  ]
+}

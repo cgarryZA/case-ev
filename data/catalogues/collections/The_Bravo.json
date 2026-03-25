@@ -1,0 +1,20 @@
+{
+  "Collection": "The Bravo Collection",
+  "Skins": [
+    { "Name": "Fire Serpent",   "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Golden Koi",     "Rarity": "Covert",     "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Graphite",       "Rarity": "Classified", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Ocean Foam",     "Rarity": "Classified", "Type": "Pistol",       "Weapon": "P2000" },
+    { "Name": "Emerald Dragon", "Rarity": "Classified", "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Overgrowth",     "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Graven",         "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MAC-10" },
+    { "Name": "Zirka",          "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "Bright Water",   "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Demeter",        "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "G3SG1" },
+    { "Name": "Shattered",      "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "Galil AR" },
+    { "Name": "Wave Spray",     "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "SG 553" },
+    { "Name": "Bone Pile",      "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "UMP-45" },
+    { "Name": "Black Limba",    "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Dual Berettas" },
+    { "Name": "Tempest",        "Rarity": "Mil-spec",   "Type": "Shotgun",      "Weapon": "Nova" }
+  ]
+}

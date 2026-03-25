@@ -1,0 +1,5 @@
+data/prices/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store

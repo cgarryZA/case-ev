@@ -1,0 +1,18 @@
+{
+  "Collection": "The Winter Offensive Collection",
+  "Skins": [
+    { "Name": "Asiimov",         "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "The Kraken",      "Rarity": "Covert",     "Type": "Shotgun",      "Weapon": "Sawed-Off" },
+    { "Name": "Redline",         "Rarity": "Classified", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Mehndi",          "Rarity": "Classified", "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Guardian",        "Rarity": "Classified", "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Pulse",           "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Marina",          "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Dual Berettas" },
+    { "Name": "Rose Iron",       "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MP9" },
+    { "Name": "Rising Skull",    "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Sandstorm",       "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "Galil AR" },
+    { "Name": "Kami",            "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Magma",           "Rarity": "Mil-spec",   "Type": "Machine Gun",  "Weapon": "M249" },
+    { "Name": "Cobalt Halftone", "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "PP-Bizon" }
+  ]
+}

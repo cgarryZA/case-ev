@@ -1,0 +1,14 @@
+{
+  "Collection": "The Arms Deal Collection",
+  "Skins": [
+    { "Name": "Lightning Strike", "Rarity": "Covert",     "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Case Hardened",    "Rarity": "Classified", "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Hypnotic",         "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Desert Eagle" },
+    { "Name": "Dragon Tattoo",    "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Glock-18" },
+    { "Name": "Dark Water",       "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Dark Water",       "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Wings",            "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "AUG" },
+    { "Name": "Ultraviolet",      "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "SG 553" },
+    { "Name": "Skulls",           "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "MP7" }
+  ]
+}

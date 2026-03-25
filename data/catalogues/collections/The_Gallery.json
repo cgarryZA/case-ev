@@ -1,0 +1,22 @@
+{
+  "Collection": "The Gallery Collection",
+  "Skins": [
+    { "Name": "Vaporwave",        "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Gold Toof",        "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Neo-Noir",         "Rarity": "Classified", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Epicenter",        "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "The Outsiders",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Rapid Transit",    "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Randy Rush",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Saibā Oni",        "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Turbine",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Hydro Strike",     "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "027",              "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Trail Blazer",     "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Tango",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Statics",          "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Hypnosis",         "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Calligraffiti",    "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Luxe Trim",        "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" }
+  ]
+}

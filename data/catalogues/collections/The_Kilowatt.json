@@ -1,0 +1,22 @@
+{
+  "Collection": "The Kilowatt Collection",
+  "Skins": [
+    { "Name": "Inheritance",    "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Chrome Cannon",  "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Jawbreaker",     "Rarity": "Classified", "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Olympus",        "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Zeus x27" },
+    { "Name": "Black Lotus",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Analog Input",   "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Just Smile",     "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Hybrid",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Etch Lord",      "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Block-18",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Irezumi",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Motorized",      "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Slag",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Dezastre",       "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Dark Sigil",     "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Light Box",      "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Hideout",        "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" }
+  ]
+}

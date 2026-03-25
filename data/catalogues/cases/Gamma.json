@@ -1,0 +1,12 @@
+{
+  "Case": "Gamma Case",
+  "Collection": "The Gamma Collection",
+  "ExtraordinaryItems": "Gamma Knives",
+  "Knives": [
+    "Bayonet",
+    "Flip Knife",
+    "Gut Knife",
+    "Karambit",
+    "M9 Bayonet"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Collection": "Broken Fang Collection",
+  "Cases": [
+    "Operation Broken Fang Case",
+    "Snakebite Case",
+    "Recoil Case"
+  ],
+  "GloveTypes": [
+    "Broken Fang Gloves",
+    "Driver Gloves",
+    "Hand Wraps",
+    "Moto Gloves",
+    "Specialist Gloves",
+    "Sport Gloves"
+  ],
+  "Finishes": {
+    "Broken Fang Gloves": ["Jade", "Needle Point", "Unhinged", "Yellow-banded"],
+    "Driver Gloves": ["Black Tie", "Queen Jaguar", "Rezan the Red", "Snow Leopard"],
+    "Hand Wraps": ["CAUTION!", "Constrictor", "Desert Shamagh", "Giraffe"],
+    "Moto Gloves": ["3rd Commando Company", "Blood Pressure", "Finish Line", "Smoke Out"],
+    "Specialist Gloves": ["Field Agent", "Lt. Commander", "Marble Fade", "Tiger Strike"],
+    "Sport Gloves": ["Big Game", "Nocts", "Scarlet Shamagh", "Slingshot"]
+  }
+}

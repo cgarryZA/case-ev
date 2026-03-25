@@ -1,0 +1,22 @@
+{
+  "Collection": "The Glove Collection",
+  "Skins": [
+    { "Name": "Dragonfire",         "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Buzz Kill",          "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Mecha Industries",   "Rarity": "Classified", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Shallow Grave",      "Rarity": "Classified", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Wasteland Princess", "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Royal Consorts",     "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Stinger",            "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Flashback",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Gila",               "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Cyrex",              "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Polymer",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Ironwork",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Cirrus",             "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Black Sand",         "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Sand Scale",         "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Sonar",              "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Turf",               "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Collection": "The Shattered Web Collection",
+  "Skins": [
+    { "Name": "Containment Breach", "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Stalker",            "Rarity": "Covert",     "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Colony IV",          "Rarity": "Classified", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Bloodshot",          "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Decimator",          "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Rat Rod",            "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Arctic Wolf",        "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Neon Ply",           "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Embargo",            "Rarity": "Restricted", "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Obsidian",           "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Balance",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Black Sand",         "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Warbird",            "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Acid Wash",          "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Plume",              "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Memento",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Torn",               "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Collection": "The Spectrum 2 Collection",
+  "Skins": [
+    { "Name": "The Empress",      "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "See Ya Later",     "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Leaded Glass",     "Rarity": "Classified", "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "High Roller",      "Rarity": "Classified", "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Llama Cannon",     "Rarity": "Classified", "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Goo",              "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Phantom",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Tacticat",         "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Exposure",         "Rarity": "Restricted", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Ziggy",            "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Morris",           "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Triqua",           "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Hunter",           "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Off World",        "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Oceanic",          "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Cracked Opal",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Jungle Slipstream","Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" }
+  ]
+}

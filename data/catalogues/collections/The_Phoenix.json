@@ -1,0 +1,18 @@
+{
+  "Collection": "The Phoenix Collection",
+  "Skins": [
+    { "Name": "Asiimov",    "Rarity": "Covert",     "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Chameleon",  "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "AUG" },
+    { "Name": "Redline",    "Rarity": "Classified", "Type": "Rifle",        "Weapon": "AK-47" },
+    { "Name": "Trigon",     "Rarity": "Classified", "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Antique",    "Rarity": "Classified", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Heat",       "Rarity": "Restricted", "Type": "SMG",          "Weapon": "MAC-10" },
+    { "Name": "Pulse",      "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "SG 553" },
+    { "Name": "Guardian",   "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Sergeant",   "Rarity": "Restricted", "Type": "Rifle",        "Weapon": "FAMAS" },
+    { "Name": "Corporal",   "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "UMP-45" },
+    { "Name": "Terrain",    "Rarity": "Mil-spec",   "Type": "Machine Gun",  "Weapon": "Negev" },
+    { "Name": "Sandstorm",  "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "Tec-9" },
+    { "Name": "Heaven Guard","Rarity": "Mil-spec",  "Type": "Shotgun",      "Weapon": "MAG-7" }
+  ]
+}

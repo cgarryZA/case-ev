@@ -1,0 +1,22 @@
+{
+  "Collection": "The Chroma 3 Collection",
+  "Skins": [
+    { "Name": "Chantico's Fire",         "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Judgement of Anubis",     "Rarity": "Covert",     "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Asiimov",                 "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Primal Saber",            "Rarity": "Classified", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Fleet Flock",             "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Black Tie",               "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Re-Entry",                "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Red Astor",               "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Firefight",               "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Ghost Crusader",          "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Fubar",                   "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Spectre",                 "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Ventilators",             "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Oceanic",                 "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "P2000" },
+    { "Name": "Orange Crash",            "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Atlas",                   "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Bioleak",                 "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" }
+  ]
+}

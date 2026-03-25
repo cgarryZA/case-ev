@@ -1,0 +1,22 @@
+{
+  "Collection": "The Operation Riptide Collection",
+  "Skins": [
+    { "Name": "Ocean Drive",     "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Leet Museo",      "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Turbo Peek",      "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Snack Attack",    "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Toybox",          "Rarity": "Classified", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Spider Lily",     "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Mount Fuji",      "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Boost Protocol",  "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "ZX Spectron",     "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "BI83 Spectrum",   "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Watchdog",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Black Lotus",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Lumen",           "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "PP-Bizon" },
+    { "Name": "Guerrilla",       "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Keeping Tabs",    "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Tread",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Plague",          "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "AUG" }
+  ]
+}

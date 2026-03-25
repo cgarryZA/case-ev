@@ -1,0 +1,22 @@
+{
+  "Collection": "The Operation Broken Fang Collection",
+  "Skins": [
+    { "Name": "Printstream",       "Rarity": "Covert",     "Type": "Rifle",        "Weapon": "M4A1-S" },
+    { "Name": "Neo-Noir",          "Rarity": "Covert",     "Type": "Pistol",       "Weapon": "Glock-18" },
+    { "Name": "Cyber Security",    "Rarity": "Classified", "Type": "Rifle",        "Weapon": "M4A4" },
+    { "Name": "Monster Mashup",    "Rarity": "Classified", "Type": "Pistol",       "Weapon": "USP-S" },
+    { "Name": "Fairy Tale",        "Rarity": "Classified", "Type": "Pistol",       "Weapon": "Five-SeveN" },
+    { "Name": "Gold Bismuth",      "Rarity": "Restricted", "Type": "SMG",          "Weapon": "UMP-45" },
+    { "Name": "Parallax",          "Rarity": "Restricted", "Type": "Sniper Rifle", "Weapon": "SSG 08" },
+    { "Name": "Dezastre",          "Rarity": "Restricted", "Type": "Pistol",       "Weapon": "Dual Berettas" },
+    { "Name": "Exoskeleton",       "Rarity": "Restricted", "Type": "Sniper Rifle", "Weapon": "AWP" },
+    { "Name": "Clear Polymer",     "Rarity": "Restricted", "Type": "Shotgun",      "Weapon": "Nova" },
+    { "Name": "Condition Zero",    "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "MP5-SD" },
+    { "Name": "Deep Relief",       "Rarity": "Mil-spec",   "Type": "Machine Gun",  "Weapon": "M249" },
+    { "Name": "Contaminant",       "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "P250" },
+    { "Name": "Vandal",            "Rarity": "Mil-spec",   "Type": "Rifle",        "Weapon": "Galil AR" },
+    { "Name": "Digital Mesh",      "Rarity": "Mil-spec",   "Type": "Sniper Rifle", "Weapon": "G3SG1" },
+    { "Name": "Cocoa Rampage",     "Rarity": "Mil-spec",   "Type": "SMG",          "Weapon": "P90" },
+    { "Name": "Vendetta",          "Rarity": "Mil-spec",   "Type": "Pistol",       "Weapon": "CZ75-Auto" }
+  ]
+}

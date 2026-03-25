@@ -1,0 +1,22 @@
+{
+  "Collection": "The Danger Zone Collection",
+  "Skins": [
+    { "Name": "Neo-Noir",        "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Asiimov",         "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Phosphor",        "Rarity": "Classified", "Type": "SMG",           "Weapon": "MP5-SD" },
+    { "Name": "Mecha Industries","Rarity": "Classified", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Momentum",        "Rarity": "Classified", "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Flashback",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Nevermore",       "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Pipe Down",       "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Signal",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Scavenger",       "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Fubar",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Danger Close",    "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Black Sand",      "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Magnesium",       "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Wood Fired",      "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "Nova" },
+    { "Name": "Oxide Blaze",     "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Modest Threat",   "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MP9" }
+  ]
+}

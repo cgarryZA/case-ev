@@ -1,0 +1,22 @@
+{
+  "Collection": "The Recoil Collection",
+  "Skins": [
+    { "Name": "Chromatic Aberration", "Rarity": "Covert",     "Type": "Sniper Rifle",  "Weapon": "AWP" },
+    { "Name": "Printstream",          "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Ice Coaled",           "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Visions",              "Rarity": "Classified", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Kiss♥Love",            "Rarity": "Classified", "Type": "Shotgun",       "Weapon": "Sawed-Off" },
+    { "Name": "Crazy 8",              "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "R8 Revolver" },
+    { "Name": "Downtown",             "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Dragon Tech",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Vent Rush",            "Rarity": "Restricted", "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Flora Carnivora",      "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Meow 36",              "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Destroyer",            "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Poly Mag",             "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "M4A4" },
+    { "Name": "Monkeyflage",          "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" },
+    { "Name": "Drop Me",              "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Roadblock",            "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Winterized",           "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" }
+  ]
+}

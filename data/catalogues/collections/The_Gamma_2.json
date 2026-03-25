@@ -1,0 +1,22 @@
+{
+  "Collection": "The Gamma 2 Collection",
+  "Skins": [
+    { "Name": "Neon Revolution",  "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Roll Cage",        "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Syd Mead",         "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AUG" },
+    { "Name": "Airlock",          "Rarity": "Classified", "Type": "SMG",           "Weapon": "MP9" },
+    { "Name": "Fuel Injector",    "Rarity": "Classified", "Type": "Pistol",        "Weapon": "Tec-9" },
+    { "Name": "Directive",        "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Desert Eagle" },
+    { "Name": "Weasel",           "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Petroglyph",       "Rarity": "Restricted", "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Powercore",        "Rarity": "Restricted", "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Triarch",          "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "SG 553" },
+    { "Name": "Imprint",          "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "CZ75-Auto" },
+    { "Name": "Scumbria",         "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Five-SeveN" },
+    { "Name": "Ventilator",       "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Dazzle",           "Rarity": "Mil-spec",   "Type": "Machine Gun",   "Weapon": "Negev" },
+    { "Name": "Grim",             "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "P90" },
+    { "Name": "Briefing",         "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "UMP-45" },
+    { "Name": "Slipstream",       "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" }
+  ]
+}

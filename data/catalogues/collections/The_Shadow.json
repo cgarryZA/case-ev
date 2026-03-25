@@ -1,0 +1,21 @@
+{
+  "Collection": "The Shadow Collection",
+  "Skins": [
+    { "Name": "Golden Coil",        "Rarity": "Covert",     "Type": "Rifle",         "Weapon": "M4A1-S" },
+    { "Name": "Kill Confirmed",     "Rarity": "Covert",     "Type": "Pistol",        "Weapon": "USP-S" },
+    { "Name": "Frontside Misty",    "Rarity": "Classified", "Type": "Rifle",         "Weapon": "AK-47" },
+    { "Name": "Flux",               "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "G3SG1" },
+    { "Name": "Big Iron",           "Rarity": "Classified", "Type": "Sniper Rifle",  "Weapon": "SSG 08" },
+    { "Name": "Wingshot",           "Rarity": "Restricted", "Type": "Pistol",        "Weapon": "P250" },
+    { "Name": "Nebula Crusader",    "Rarity": "Restricted", "Type": "Machine Gun",   "Weapon": "M249" },
+    { "Name": "Stone Cold",         "Rarity": "Restricted", "Type": "Rifle",         "Weapon": "Galil AR" },
+    { "Name": "Special Delivery",   "Rarity": "Restricted", "Type": "SMG",           "Weapon": "MP7" },
+    { "Name": "Green Marine",       "Rarity": "Mil-spec",   "Type": "Sniper Rifle",  "Weapon": "SCAR-20" },
+    { "Name": "Cobalt Core",        "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "MAG-7" },
+    { "Name": "Scumbria",           "Rarity": "Mil-spec",   "Type": "Shotgun",       "Weapon": "XM1014" },
+    { "Name": "Wraiths",            "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Glock-18" },
+    { "Name": "Dualing Dragons",    "Rarity": "Mil-spec",   "Type": "Pistol",        "Weapon": "Dual Berettas" },
+    { "Name": "Survivor Z",         "Rarity": "Mil-spec",   "Type": "Rifle",         "Weapon": "FAMAS" },
+    { "Name": "Rangeen",            "Rarity": "Mil-spec",   "Type": "SMG",           "Weapon": "MAC-10" }
+  ]
+}

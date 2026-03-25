@@ -1,0 +1,17 @@
+{
+  "Collection": "The Arms Deal 3 Collection",
+  "Skins": [
+    { "Name": "Victoria",           "Rarity": "Covert",     "Type": "Pistol", "Weapon": "CZ75-Auto" },
+    { "Name": "The Fuschia Is Now", "Rarity": "Classified", "Type": "Pistol", "Weapon": "CZ75-Auto" },
+    { "Name": "Undertow",           "Rarity": "Classified", "Type": "Pistol", "Weapon": "P250" },
+    { "Name": "Tread Plate",        "Rarity": "Restricted", "Type": "Pistol", "Weapon": "CZ75-Auto" },
+    { "Name": "Titanium Bit",       "Rarity": "Restricted", "Type": "Pistol", "Weapon": "Tec-9" },
+    { "Name": "Heirloom",           "Rarity": "Restricted", "Type": "Pistol", "Weapon": "Desert Eagle" },
+    { "Name": "Copper Galaxy",      "Rarity": "Restricted", "Type": "Pistol", "Weapon": "Five-SeveN" },
+    { "Name": "Crimson Web",        "Rarity": "Mil-spec",   "Type": "Pistol", "Weapon": "CZ75-Auto" },
+    { "Name": "Red FragCam",        "Rarity": "Mil-spec",   "Type": "Pistol", "Weapon": "P2000" },
+    { "Name": "Panther",            "Rarity": "Mil-spec",   "Type": "Pistol", "Weapon": "Dual Berettas" },
+    { "Name": "Stainless",          "Rarity": "Mil-spec",   "Type": "Pistol", "Weapon": "USP-S" },
+    { "Name": "Blue Fissure",       "Rarity": "Mil-spec",   "Type": "Pistol", "Weapon": "Glock-18" }
+  ]
+}
