@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-PROCESSED_DIR = BASE_DIR / "Data" / "processed"
+PROCESSED_DIR = Path(r"C:\Users\z00503ku\Documents\CSGO\Data\processed")
 
 WEARS = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
 WEAR_SHORT = {"Factory New": "FN", "Minimal Wear": "MW", "Field-Tested": "FT",

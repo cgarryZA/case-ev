@@ -57,6 +57,7 @@ WEARS = ["FN", "MW", "FT", "WW", "BS"]
 
 DEFAULT_FMIN, DEFAULT_FMAX = 0.06, 0.80
 ST_PROB = 0.10
+KEY_PRICE = 2.49
 
 
 def compute_wear_probs(fmin=DEFAULT_FMIN, fmax=DEFAULT_FMAX):
@@ -76,6 +77,50 @@ def compute_wear_probs(fmin=DEFAULT_FMIN, fmax=DEFAULT_FMAX):
 
 
 WEAR_PROBS = compute_wear_probs()
+
+# Wear tier boundaries used for inferring float ranges from available data
+WEAR_BOUNDARIES = {
+    "FN": (0.00, 0.07),
+    "MW": (0.07, 0.15),
+    "FT": (0.15, 0.38),
+    "WW": (0.38, 0.45),
+    "BS": (0.45, 1.00),
+}
+
+
+def infer_float_range(available_wears):
+    """Infer approximate [fmin, fmax] from which wears have price data.
+
+    If a skin has no FN data, assume min float is at the FN/MW boundary (0.07).
+    If a skin has no BS data, assume max float is at the WW/BS boundary (0.45).
+    Uses the upper boundary of the lowest missing tier as fmin and the lower
+    boundary of the highest missing tier as fmax.
+    """
+    if not available_wears:
+        return DEFAULT_FMIN, DEFAULT_FMAX
+
+    ordered = ["FN", "MW", "FT", "WW", "BS"]
+    present = set(available_wears)
+
+    # Find fmin: walk up from FN; each missing tier pushes fmin to that tier's upper bound
+    fmin = 0.0
+    for w in ordered:
+        if w in present:
+            break
+        fmin = WEAR_BOUNDARIES[w][1]
+
+    # Find fmax: walk down from BS; each missing tier pushes fmax to that tier's lower bound
+    fmax = 1.0
+    for w in reversed(ordered):
+        if w in present:
+            break
+        fmax = WEAR_BOUNDARIES[w][0]
+
+    # Sanity: ensure valid range
+    if fmin >= fmax:
+        return DEFAULT_FMIN, DEFAULT_FMAX
+
+    return fmin, fmax
 
 
 # ── Catalogue loading ─────────────────────────────────────────────
@@ -282,16 +327,21 @@ def expand_case(case_name):
 # ── CSV reading ───────────────────────────────────────────────────
 
 def read_item_csv(price_dir, csv_slug):
-    """Read an item CSV and return {wear_short: [(date_str, price), ...]}."""
+    """Read an item CSV and return {key: [(date_str, price), ...]}.
+
+    Keys are "wear_short" for non-StatTrak and "ST_wear_short" for StatTrak.
+    Falls back to unsplit keys if the CSV has no stattrak column.
+    """
     path = PRICES_DIR / price_dir / f"{csv_slug}.csv"
     if not path.exists():
         return None
 
-    by_wear_date = {}  # wear_short -> date -> [prices]
+    by_key_date = {}  # key -> date -> [prices]
     try:
         with open(path, "r", encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
             has_wear = "wear" in (reader.fieldnames or [])
+            has_st = "stattrak" in (reader.fieldnames or [])
             for row in reader:
                 price = float(row["price_usd"])
                 if price <= 0 or not math.isfinite(price):
@@ -305,23 +355,30 @@ def read_item_csv(price_dir, csv_slug):
                 else:
                     wear = "_case"  # Case CSVs have no wear column
 
-                if wear not in by_wear_date:
-                    by_wear_date[wear] = {}
-                if date not in by_wear_date[wear]:
-                    by_wear_date[wear][date] = []
-                by_wear_date[wear][date].append(price)
+                # Separate StatTrak from non-StatTrak
+                if has_st:
+                    is_st = row["stattrak"].strip().lower() == "true"
+                    key = f"ST_{wear}" if is_st else wear
+                else:
+                    key = wear
+
+                if key not in by_key_date:
+                    by_key_date[key] = {}
+                if date not in by_key_date[key]:
+                    by_key_date[key][date] = []
+                by_key_date[key][date].append(price)
     except (OSError, KeyError, ValueError) as e:
         return None
 
-    # Compute median per (wear, date)
+    # Compute median per (key, date)
     result = {}
-    for wear, dates in by_wear_date.items():
+    for key, dates in by_key_date.items():
         series = []
         for date in sorted(dates.keys()):
             prices = dates[date]
             median = statistics.median(prices)
             series.append((date, median))
-        result[wear] = series
+        result[key] = series
 
     return result
 
@@ -1033,11 +1090,28 @@ def run_analysis(ev, price):
 
 # ── EV computation ────────────────────────────────────────────────
 
+def _forward_fill(date_price_dict, sorted_dates):
+    """Return a dict mapping each date to a price, forward-filling gaps.
+
+    If a date has no price, the most recent prior price is carried forward.
+    Dates before the first known price remain None.
+    """
+    filled = {}
+    last_price = None
+    for d in sorted_dates:
+        p = date_price_dict.get(d)
+        if p is not None:
+            last_price = p
+        filled[d] = last_price
+    return filled
+
+
 def build_ev(items, item_series, timescale_key, days):
     """Build EV series for a given timescale.
 
     items: list of item dicts from expand_case
-    item_series: dict name -> {wear -> [(date, price), ...]}
+    item_series: dict name -> {key -> [(date, price), ...]}
+        where keys are "wear" for non-ST and "ST_wear" for StatTrak
     """
     # Count items per rarity tier
     tier_counts = {}
@@ -1051,8 +1125,10 @@ def build_ev(items, item_series, timescale_key, days):
         data = item_series.get(item["name"])
         if not data:
             continue
-        for wear in WEARS:
-            for date, _ in data.get(wear, []):
+        for key in data:
+            if key == "_case":
+                continue
+            for date, _ in data[key]:
                 all_dates.add(date)
 
     if not all_dates:
@@ -1086,9 +1162,13 @@ def build_ev(items, item_series, timescale_key, days):
 
         allow_st = item.get("allow_st", True)
 
+        # Infer per-item float range from available wear data
+        available_wears = [w for w in WEARS if w in data or f"ST_{w}" in data]
+        fmin, fmax = infer_float_range(available_wears)
+        item_wear_probs = compute_wear_probs(fmin, fmax)
+
         for wear in WEARS:
-            pw = WEAR_PROBS.get(wear, 0)
-            wear_dates = dict(data.get(wear, []))
+            pw = item_wear_probs.get(wear, 0)
 
             for st in [True, False]:
                 if st and not allow_st:
@@ -1096,8 +1176,20 @@ def build_ev(items, item_series, timescale_key, days):
                 pst = ST_PROB if st else (1 - ST_PROB if allow_st else 1.0)
                 weight = p_item * pw * pst
 
+                # Look up ST-separated key, fall back to unsplit wear key
+                st_key = f"ST_{wear}" if st else wear
+                raw_series = data.get(st_key)
+                if raw_series is None and st:
+                    # No separate ST data — fall back to mixed wear data
+                    raw_series = data.get(wear)
+                if not raw_series:
+                    continue
+
+                # Forward-fill to cover dates with no observation
+                filled = _forward_fill(dict(raw_series), sorted_dates)
+
                 for date in sorted_dates:
-                    price = wear_dates.get(date)
+                    price = filled.get(date)
                     if price is not None:
                         ev_by_date[date] += weight * price
 
@@ -1120,7 +1212,7 @@ def precompute_case(case_name, output_dir):
         return
 
     # Load all item price data
-    item_series = {}  # name -> {wear -> [(date, price), ...]}
+    item_series = {}  # name -> {key -> [(date, price), ...]} (keys: "FN", "ST_FN", etc.)
     missing = []
     for item in items:
         data = read_item_csv(item["price_dir"], item["csv_slug"])
@@ -1161,17 +1253,25 @@ def precompute_case(case_name, output_dir):
     # Per-item data (per timescale, per wear)
     for item in items:
         data = item_series.get(item["name"])
+        # Infer float range from available wear data
+        available_wears = [w for w in WEARS if data and (w in data or f"ST_{w}" in data)]
+        item_fmin, item_fmax = infer_float_range(available_wears)
+        item_wear_probs = compute_wear_probs(item_fmin, item_fmax)
         item_out = {
             "rarity": item["rarity"],
             "kind": item["kind"],
             "allow_st": item.get("allow_st", True),
+            "float_range": [round(item_fmin, 4), round(item_fmax, 4)],
+            "wear_probs": {w: round(p, 6) for w, p in item_wear_probs.items()},
             "wears": {},
             "average": {},
         }
         for ts_key, ts_days in TIMESCALES.items():
             for wear in WEARS:
-                if data and wear in data:
-                    filtered = filter_timescale(data[wear], ts_days)
+                # For the per-wear chart, use non-ST prices (the common display)
+                raw_key = wear
+                if data and raw_key in data:
+                    filtered = filter_timescale(data[raw_key], ts_days)
                     xy = to_xy(filtered, max_points=120)
                 else:
                     xy = []
@@ -1179,32 +1279,48 @@ def precompute_case(case_name, output_dir):
                     item_out["wears"][wear] = {}
                 item_out["wears"][wear][ts_key] = xy
 
-            # Weighted average across wears
-            # Find common dates for this timescale
+            # Weighted average across wears (ST-aware, per-item float range)
             all_dates_for_avg = set()
-            wear_dated = {}
+            wear_st_dated = {}  # (wear, st) -> {date: price}
+            allow_st = item.get("allow_st", True)
             for wear in WEARS:
-                if data and wear in data:
-                    filtered = filter_timescale(data[wear], ts_days)
-                    wear_dated[wear] = dict(filtered)
-                    all_dates_for_avg.update(wear_dated[wear].keys())
-                else:
-                    wear_dated[wear] = {}
+                for st in [True, False]:
+                    if st and not allow_st:
+                        continue
+                    st_key = f"ST_{wear}" if st else wear
+                    raw_series = data.get(st_key) if data else None
+                    if raw_series is None and st and data:
+                        # Fall back to mixed wear data for ST
+                        raw_series = data.get(wear)
+                    if raw_series:
+                        filtered = filter_timescale(raw_series, ts_days)
+                        wear_st_dated[(wear, st)] = dict(filtered)
+                        all_dates_for_avg.update(wear_st_dated[(wear, st)].keys())
+                    else:
+                        wear_st_dated[(wear, st)] = {}
+
+            # Infer per-item float range from available wear data
+            available_wears = [w for w in WEARS if data and (w in data or f"ST_{w}" in data)]
+            item_fmin, item_fmax = infer_float_range(available_wears)
+            item_wear_probs = compute_wear_probs(item_fmin, item_fmax)
+
+            # Forward-fill each (wear, st) series
+            sorted_avg_dates = sorted(all_dates_for_avg)
+            for key in wear_st_dated:
+                wear_st_dated[key] = _forward_fill(wear_st_dated[key], sorted_avg_dates)
 
             avg_series = []
-            allow_st = item.get("allow_st", True)
-            for date in sorted(all_dates_for_avg):
+            for date in sorted_avg_dates:
                 val = 0.0
                 for wear in WEARS:
-                    pw = WEAR_PROBS.get(wear, 0)
-                    price = wear_dated[wear].get(date)
-                    if price is None:
-                        continue
+                    pw = item_wear_probs.get(wear, 0)
                     for st in [True, False]:
                         if st and not allow_st:
                             continue
                         pst = ST_PROB if st else (1 - ST_PROB if allow_st else 1.0)
-                        val += pw * pst * price
+                        price = wear_st_dated.get((wear, st), {}).get(date)
+                        if price is not None:
+                            val += pw * pst * price
                 avg_series.append((date, val))
             item_out["average"][ts_key] = to_xy(avg_series, max_points=120)
 
@@ -1225,14 +1341,18 @@ def precompute_case(case_name, output_dir):
         ev = build_ev(items, item_series, ts_key, ts_days)
         ts_out["ev"] = ev
 
-        # Basis (EV - Price)
+        # Cost = case_price + key
         cp = ts_out["case_price"]
-        n = min(len(ev), len(cp))
-        ts_out["basis"] = [[ev[i][0], round(ev[i][1] - cp[i][1], 4)] for i in range(n)] if n > 0 else []
+        cost = [[p[0], round(p[1] + KEY_PRICE, 4)] for p in cp]
+        n = min(len(ev), len(cost))
+        ts_out["cost"] = cost
 
-        # Analysis
+        # Basis (EV - Cost) — includes key price
+        ts_out["basis"] = [[ev[i][0], round(ev[i][1] - cost[i][1], 4)] for i in range(n)] if n > 0 else []
+
+        # Analysis — compare EV against total cost (case + key)
         if n >= 5:
-            ts_out["analysis"] = run_analysis(ev[:n], cp[:n])
+            ts_out["analysis"] = run_analysis(ev[:n], cost[:n])
         else:
             ts_out["analysis"] = {}
 
